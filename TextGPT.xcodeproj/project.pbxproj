@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6B98F529CDBDE400E648D8 /* TextGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B98F429CDBDE400E648D8 /* TextGPTApp.swift */; };
+		3F6B98F729CDBDE400E648D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B98F629CDBDE400E648D8 /* ContentView.swift */; };
+		3F6B98F929CDBDE500E648D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B98F829CDBDE500E648D8 /* Assets.xcassets */; };
+		3F6B98FC29CDBDE500E648D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B98FB29CDBDE500E648D8 /* Preview Assets.xcassets */; };
+		3F6B990729CDBDE600E648D8 /* RecongnizerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B990629CDBDE600E648D8 /* RecongnizerTest.swift */; };
+		3F6B991129CDBDE600E648D8 /* TextGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B991029CDBDE600E648D8 /* TextGPTUITests.swift */; };
+		3F6B991329CDBDE600E648D8 /* TextGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B991229CDBDE600E648D8 /* TextGPTUITestsLaunchTests.swift */; };
+		3F6B992129CDC37100E648D8 /* AccessibilityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B992029CDC37100E648D8 /* AccessibilityObserver.swift */; };
+		3F6B992429CDDF8600E648D8 /* AXSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F6B992329CDDF8600E648D8 /* AXSwift */; };
+		3F96FD3829D14A2E0081FF12 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F96FD3729D14A2E0081FF12 /* OpenAISwift */; };
+		3F96FD3A29D14CAD0081FF12 /* Recongnizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96FD3929D14CAD0081FF12 /* Recongnizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6B990329CDBDE600E648D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6B98E929CDBDE400E648D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6B98F029CDBDE400E648D8;
+			remoteInfo = TextGPT;
+		};
+		3F6B990D29CDBDE600E648D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6B98E929CDBDE400E648D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6B98F029CDBDE400E648D8;
+			remoteInfo = TextGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6B98F129CDBDE400E648D8 /* TextGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B98F429CDBDE400E648D8 /* TextGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGPTApp.swift; sourceTree = "<group>"; };
+		3F6B98F629CDBDE400E648D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F6B98F829CDBDE500E648D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6B98FB29CDBDE500E648D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F6B98FD29CDBDE500E648D8 /* TextGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextGPT.entitlements; sourceTree = "<group>"; };
+		3F6B990229CDBDE600E648D8 /* TextGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B990629CDBDE600E648D8 /* RecongnizerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecongnizerTest.swift; sourceTree = "<group>"; };
+		3F6B990C29CDBDE600E648D8 /* TextGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6B991029CDBDE600E648D8 /* TextGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGPTUITests.swift; sourceTree = "<group>"; };
+		3F6B991229CDBDE600E648D8 /* TextGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F6B991F29CDBE3500E648D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F6B992029CDC37100E648D8 /* AccessibilityObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityObserver.swift; sourceTree = "<group>"; };
+		3F96FD3529CEB0FE0081FF12 /* TextGPTDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextGPTDebug.entitlements; sourceTree = "<group>"; };
+		3F96FD3929D14CAD0081FF12 /* Recongnizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recongnizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6B98EE29CDBDE400E648D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96FD3829D14A2E0081FF12 /* OpenAISwift in Frameworks */,
+				3F6B992429CDDF8600E648D8 /* AXSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B98FF29CDBDE600E648D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B990929CDBDE600E648D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6B98E829CDBDE400E648D8 = {
+			isa = PBXGroup;
+			children = (
+				3F6B98F329CDBDE400E648D8 /* TextGPT */,
+				3F6B990529CDBDE600E648D8 /* TextGPTTests */,
+				3F6B990F29CDBDE600E648D8 /* TextGPTUITests */,
+				3F6B98F229CDBDE400E648D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6B98F229CDBDE400E648D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B98F129CDBDE400E648D8 /* TextGPT.app */,
+				3F6B990229CDBDE600E648D8 /* TextGPTTests.xctest */,
+				3F6B990C29CDBDE600E648D8 /* TextGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6B98F329CDBDE400E648D8 /* TextGPT */ = {
+			isa = PBXGroup;
+			children = (
+				3F96FD3529CEB0FE0081FF12 /* TextGPTDebug.entitlements */,
+				3F6B991F29CDBE3500E648D8 /* Info.plist */,
+				3F6B98F429CDBDE400E648D8 /* TextGPTApp.swift */,
+				3F6B98F629CDBDE400E648D8 /* ContentView.swift */,
+				3F96FD3929D14CAD0081FF12 /* Recongnizer.swift */,
+				3F6B992029CDC37100E648D8 /* AccessibilityObserver.swift */,
+				3F6B98F829CDBDE500E648D8 /* Assets.xcassets */,
+				3F6B98FD29CDBDE500E648D8 /* TextGPT.entitlements */,
+				3F6B98FA29CDBDE500E648D8 /* Preview Content */,
+			);
+			path = TextGPT;
+			sourceTree = "<group>";
+		};
+		3F6B98FA29CDBDE500E648D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B98FB29CDBDE500E648D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F6B990529CDBDE600E648D8 /* TextGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B990629CDBDE600E648D8 /* RecongnizerTest.swift */,
+			);
+			path = TextGPTTests;
+			sourceTree = "<group>";
+		};
+		3F6B990F29CDBDE600E648D8 /* TextGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B991029CDBDE600E648D8 /* TextGPTUITests.swift */,
+				3F6B991229CDBDE600E648D8 /* TextGPTUITestsLaunchTests.swift */,
+			);
+			path = TextGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6B98F029CDBDE400E648D8 /* TextGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B991629CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPT" */;
+			buildPhases = (
+				3F6B98ED29CDBDE400E648D8 /* Sources */,
+				3F6B98EE29CDBDE400E648D8 /* Frameworks */,
+				3F6B98EF29CDBDE400E648D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextGPT;
+			packageProductDependencies = (
+				3F6B992329CDDF8600E648D8 /* AXSwift */,
+				3F96FD3729D14A2E0081FF12 /* OpenAISwift */,
+			);
+			productName = TextGPT;
+			productReference = 3F6B98F129CDBDE400E648D8 /* TextGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6B990129CDBDE600E648D8 /* TextGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B991929CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPTTests" */;
+			buildPhases = (
+				3F6B98FE29CDBDE600E648D8 /* Sources */,
+				3F6B98FF29CDBDE600E648D8 /* Frameworks */,
+				3F6B990029CDBDE600E648D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6B990429CDBDE600E648D8 /* PBXTargetDependency */,
+			);
+			name = TextGPTTests;
+			productName = TextGPTTests;
+			productReference = 3F6B990229CDBDE600E648D8 /* TextGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6B990B29CDBDE600E648D8 /* TextGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B991C29CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPTUITests" */;
+			buildPhases = (
+				3F6B990829CDBDE600E648D8 /* Sources */,
+				3F6B990929CDBDE600E648D8 /* Frameworks */,
+				3F6B990A29CDBDE600E648D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6B990E29CDBDE600E648D8 /* PBXTargetDependency */,
+			);
+			name = TextGPTUITests;
+			productName = TextGPTUITests;
+			productReference = 3F6B990C29CDBDE600E648D8 /* TextGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6B98E929CDBDE400E648D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3F6B98F029CDBDE400E648D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3F6B990129CDBDE600E648D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F6B98F029CDBDE400E648D8;
+					};
+					3F6B990B29CDBDE600E648D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F6B98F029CDBDE400E648D8;
+					};
+				};
+			};
+			buildConfigurationList = 3F6B98EC29CDBDE400E648D8 /* Build configuration list for PBXProject "TextGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6B98E829CDBDE400E648D8;
+			packageReferences = (
+				3F6B992229CDDF8600E648D8 /* XCRemoteSwiftPackageReference "AXSwift" */,
+				3F96FD3629D14A2E0081FF12 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = 3F6B98F229CDBDE400E648D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6B98F029CDBDE400E648D8 /* TextGPT */,
+				3F6B990129CDBDE600E648D8 /* TextGPTTests */,
+				3F6B990B29CDBDE600E648D8 /* TextGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6B98EF29CDBDE400E648D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B98FC29CDBDE500E648D8 /* Preview Assets.xcassets in Resources */,
+				3F6B98F929CDBDE500E648D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B990029CDBDE600E648D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B990A29CDBDE600E648D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6B98ED29CDBDE400E648D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96FD3A29D14CAD0081FF12 /* Recongnizer.swift in Sources */,
+				3F6B98F729CDBDE400E648D8 /* ContentView.swift in Sources */,
+				3F6B992129CDC37100E648D8 /* AccessibilityObserver.swift in Sources */,
+				3F6B98F529CDBDE400E648D8 /* TextGPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B98FE29CDBDE600E648D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B990729CDBDE600E648D8 /* RecongnizerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6B990829CDBDE600E648D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B991129CDBDE600E648D8 /* TextGPTUITests.swift in Sources */,
+				3F6B991329CDBDE600E648D8 /* TextGPTUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6B990429CDBDE600E648D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6B98F029CDBDE400E648D8 /* TextGPT */;
+			targetProxy = 3F6B990329CDBDE600E648D8 /* PBXContainerItemProxy */;
+		};
+		3F6B990E29CDBDE600E648D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6B98F029CDBDE400E648D8 /* TextGPT */;
+			targetProxy = 3F6B990D29CDBDE600E648D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F6B991429CDBDE600E648D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6B991529CDBDE600E648D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F6B991729CDBDE600E648D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextGPT/TextGPTDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextGPT/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F6B991829CDBDE600E648D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextGPT/TextGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextGPT/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3F6B991A29CDBDE600E648D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextGPT";
+			};
+			name = Debug;
+		};
+		3F6B991B29CDBDE600E648D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextGPT";
+			};
+			name = Release;
+		};
+		3F6B991D29CDBDE600E648D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextGPT;
+			};
+			name = Debug;
+		};
+		3F6B991E29CDBDE600E648D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35WQR6TVCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agumi.TextGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6B98EC29CDBDE400E648D8 /* Build configuration list for PBXProject "TextGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B991429CDBDE600E648D8 /* Debug */,
+				3F6B991529CDBDE600E648D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B991629CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B991729CDBDE600E648D8 /* Debug */,
+				3F6B991829CDBDE600E648D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B991929CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B991A29CDBDE600E648D8 /* Debug */,
+				3F6B991B29CDBDE600E648D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6B991C29CDBDE600E648D8 /* Build configuration list for PBXNativeTarget "TextGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B991D29CDBDE600E648D8 /* Debug */,
+				3F6B991E29CDBDE600E648D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F6B992229CDDF8600E648D8 /* XCRemoteSwiftPackageReference "AXSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmandry/AXSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		3F96FD3629D14A2E0081FF12 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F6B992329CDDF8600E648D8 /* AXSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F6B992229CDDF8600E648D8 /* XCRemoteSwiftPackageReference "AXSwift" */;
+			productName = AXSwift;
+		};
+		3F96FD3729D14A2E0081FF12 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F96FD3629D14A2E0081FF12 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F6B98E929CDBDE400E648D8 /* Project object */;
+}
